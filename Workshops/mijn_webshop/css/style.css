@@ -28,15 +28,17 @@
 #footerdetail{
     background-color: rgb(107, 233, 212);
 }
-
+/* gaps tussen e blokken  */
 h1, h2, p, a{
     margin-top: 0;
     margin-bottom: 0 ;
 }
+/* producten naastv elkaar */
 #producten{
     display:flex;
     gap: 50px;
 }
+/* een gap met ruimte onder de producten */
 #producten div{
     margin-bottom: 100px;
 }
