@@ -3,11 +3,23 @@
     height: 100px;
     
 }
+#header2{
+    background-color: aquamarine;
+    height: 150 px
+}
 #content{
     background-color: rgb(196, 224, 196);
     height: 1700px;
 }
+#conten2{
+    background-color: rgb(171, 226, 119);
+    height: 200px;
+}
 #footer{
     background-color: rgb(171, 226, 217);
     height: 200px;
+}
+#footer2{
+    background-color: rgb(107, 233, 212);
+    height: 50px;
 }
