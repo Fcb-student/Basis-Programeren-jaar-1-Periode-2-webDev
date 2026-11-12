@@ -1,31 +1,34 @@
-/* kleur voor header  */
+/* kleur voor header */
 #headerindex{
-    background-color: green;
-    height: 100px;
-    
+    background-color: green;    
 }
+/* kleur voor content in index*/
+#contentindex{
+    background-color: rgb(196, 224, 196);
+}
+/* kleur voor footer in ibdex */
+#footerindex{
+    background-color: rgb(171, 226, 217);
+}
+ /* kleur voor heider in detail */
 #headerdetail{
     background-color: aquamarine;
 }
-/* kleur voor content  */
-#contentindex{
-    background-color: rgb(196, 224, 196);
-    height: 1700px;
+#contentindex img{
+    width :100px 
 }
+/* kleur voor content in detail */
 #contentdetail{
     background-color: rgb(171, 226, 119);
 }
+/* proportie van de foto in detail */
 #contentdetail img{
     width : 200px
-}
-/* kleur voor footer  */
-#footerindex{
-    background-color: rgb(171, 226, 217);
-    height: 200px;
 }
 #footerdetail{
     background-color: rgb(107, 233, 212);
 }
+
 h1, h2, p, a{
     margin-top: 0;
     margin-bottom: 0 ;
