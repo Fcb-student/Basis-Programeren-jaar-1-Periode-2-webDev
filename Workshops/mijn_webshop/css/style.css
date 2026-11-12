@@ -33,7 +33,12 @@ h1, h2, p, a{
     margin-top: 0;
     margin-bottom: 0 ;
 }
-
+#producten{
+    display:flex;
+    gap: 50px;
+}
 #producten div{
+    
     margin-bottom: 100px;
+
 }
