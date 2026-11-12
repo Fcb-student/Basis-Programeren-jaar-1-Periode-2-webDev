@@ -1,25 +1,32 @@
-#header{
+/* kleur voor header  */
+#headerindex{
     background-color: green;
     height: 100px;
     
 }
-#header2{
+#headerdetail{
     background-color: aquamarine;
-    height: 150 px
 }
-#content{
+/* kleur voor content  */
+#contentindex{
     background-color: rgb(196, 224, 196);
     height: 1700px;
 }
-#conten2{
+#contentdetail{
     background-color: rgb(171, 226, 119);
-    height: 200px;
 }
-#footer{
+#contentdetail img{
+    width : 200px
+}
+/* kleur voor footer  */
+#footerindex{
     background-color: rgb(171, 226, 217);
     height: 200px;
 }
-#footer2{
+#footerdetail{
     background-color: rgb(107, 233, 212);
-    height: 50px;
+}
+h1, h2, p, a{
+    margin-top: 0;
+    margin-bottom: 0 ;
 }
