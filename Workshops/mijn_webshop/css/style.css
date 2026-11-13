@@ -31,14 +31,16 @@
 /* gaps tussen e blokken  */
 h1, h2, p, a{
     margin-top: 0;
-    margin-bottom: 0 ;
+    margin-bottom: 0;
 }
 /* producten naastv elkaar */
 #producten{
     display:flex;
-    gap: 50px;
+    gap: 40px;
+    flex-wrap: wrap;
 }
 /* een gap met ruimte onder de producten */
 #producten div{
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
+
