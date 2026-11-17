@@ -17,10 +17,10 @@ body{
 #header{
     background-color: #111111;
     color: #ffffff;
-    height: 100px;
-    text-align:center; /* text in het midden */
-    font-size: 32px;
-    line-height: 100px; /* text verticaal in het midde: zelfde als de hoogte*/
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
 }
 /* de tekst staat dan niet tegen de rand */
 #content{
