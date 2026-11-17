@@ -35,7 +35,6 @@ body{
 .product{
     border: 1px solid #cccccc;
     padding: 10px;
-    margin-bottom: 20px;
 }
 /* grootte van de plaatjes*/
 .product img{
@@ -47,4 +46,8 @@ body{
     color: #d9480f;
     font-weight: bold;
     font-family: 20px;
+}
+.producten {
+    display: flec;
+    gap: 20px;
 }
