@@ -3,10 +3,10 @@
 }
 /* details over de inhoud van de body*/
 body{
-    background-color: #f4f4f4;
     font-family: Arial, sans-serif;
     color: #333333;
     margin: 0;
+    background-color: #f4f4f4;
 }
 /* details over de inhoud van de container*/
 #container{
@@ -22,15 +22,25 @@ body{
     justify-content: space-between;
     align-items:center;
 }
+#menu {
+    display:flex;
+    gap: 20px;
+    list-style: none;
+}
+#menu a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
 /* de tekst staat dan niet tegen de rand */
 #content{
-    background-color: rgb(210, 188, 231);
+    background-color: #ffffff;
     padding: 20px;
 }
-/* detail over de footer*/
-#footer{
-    background-color: rgb(219, 110, 110);
-    height: 100px;
+.producten {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 /* elke product heeft een rand met ruimte*/
 .product{
@@ -53,11 +63,6 @@ body{
     font-weight: bold;
     font-family: 20px;
 }
-.producten {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-}
 
 .knop {
     display: inline-block;
@@ -69,4 +74,21 @@ body{
 }
 .knop:hover {
     background-color: #b33c0c;
+}
+
+.detail {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+.detail img {
+    width: 450px;
+    border-radius: 8px;
+}
+/* detail over de footer*/
+#footer{
+    background-color: #333333;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
 }
