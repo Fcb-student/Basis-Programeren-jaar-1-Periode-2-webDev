@@ -33,7 +33,7 @@ h1, h2, p, a{
     margin-top: 0;
     margin-bottom: 0;
 }
-/* producten naastv elkaar */
+/* producten naastv elkaar en scherm kleiner verander positie van product*/
 #producten{
     display:flex;
     gap: 40px;
