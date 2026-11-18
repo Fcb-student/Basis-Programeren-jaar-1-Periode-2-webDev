@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;/* padding telt mee in de breedte*/
+}
+
 /* kleur voor header */
 #headerindex{
     background-color: green;    
@@ -36,11 +40,10 @@ h1, h2, p, a{
 /* producten naastv elkaar en scherm kleiner verander positie van product*/
 #producten{
     display:flex;
-    gap: 40px;
+    gap: 20px;
     flex-wrap: wrap;
 }
-/* een gap met ruimte onder de producten */
-#producten div{
-    margin-bottom: 50px;
+#product {
+    
 }
 
