@@ -2,7 +2,7 @@
     box-sizing: border-box;/* padding telt mee in de breedte*/
 }
 /* details over de inhoud van de body*/
-body{
+.body{
     font-family: Arial, sans-serif;
     color: #333333;
     margin: 0;
@@ -13,6 +13,7 @@ body{
     max-width: 960px;
     margin: 0 auto; /*boven en onder 0, links en rechts automatisch*/
 }
+
 /* stats van over de header*/
 #header{
     background-color: #111111;
@@ -20,7 +21,7 @@ body{
     padding: 0 20px;
     display: flex;
     justify-content: space-between;
-    align-items:center;
+    align-items: center;
 }
 #menu {
     display:flex;
@@ -68,8 +69,8 @@ body{
     display: inline-block;
     background-color: #d9480f;
     color: #ffffff;
-    padding: 8px 16 px;
-    border-radius: 4 px;
+    padding: 8px 16px;
+    border-radius: 4px;
     text-decoration: none;
 }
 .knop:hover {

@@ -1,12 +1,14 @@
 *{
     box-sizing: border-box;/* padding telt mee in de breedte*/
 }
+/* detail over inhoud body */
 .body {
     font-family: Arial, sans-serif;
     color: green;
     margin: 0;
     background-color: #f4f4f4;
 }
+/* breedte van de container */
 .container {
     max-width: 960px;
     margin: 0 auto; /*boven en onder 0, links en rechts automatisch*/
@@ -68,8 +70,8 @@
     display: inline-block;
     background-color: #d9480f;
     color: #ffffff;
-    padding: 8px 16 px;
-    border-radius: 4 px;
+    padding: 8px 16px;
+    border-radius: 4px;
     text-decoration: none;
 }
 .knop:hover {
@@ -93,13 +95,3 @@
     padding: 20px;
     text-align: center;
 }
-
-
-/* gaps tussen e blokken  */
-h1, h2, p, a{
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-
-
