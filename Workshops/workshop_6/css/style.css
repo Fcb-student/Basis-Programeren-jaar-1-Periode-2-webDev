@@ -40,7 +40,7 @@ body{
 .producten {
     display: flex;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 20px;
 }
 /* elke product heeft een rand met ruimte*/
 .product{
