@@ -2,14 +2,14 @@
     box-sizing: border-box;/* padding telt mee in de breedte*/
 }
 /* detail over inhoud body */
-.body {
+#body {
     font-family: Arial, sans-serif;
     color: green;
     margin: 0;
     background-color: #f4f4f4;
 }
 /* breedte van de container */
-.container {
+#container {
     max-width: 960px;
     margin: 0 auto; /*boven en onder 0, links en rechts automatisch*/
 }
@@ -25,7 +25,7 @@
 }
 #menu {
     display:flex;
-    gap: 20px;
+    gap: 40px;
     list-style: none;
 }
 #menu a {
