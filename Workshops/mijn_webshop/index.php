@@ -35,7 +35,7 @@
         <!-- prijs -->
         <p>&euro; 2,99</p>
         <!-- voor extra info  -->
-        <a href="detail.html" class="knop">Bekijk</a>
+        <a href="detail.php" class="knop">Bekijk</a>
        </div>
 
       <!-- andijvie  -->
@@ -46,7 +46,7 @@
         <!-- prijs  -->
         <p>&euro; 1,50</p>
         <!-- voor extra info  -->
-        <a href="detail.html" class="knop">Bekijk</a>
+        <a href="detail.php" class="knop">Bekijk</a>
        </div>
 
       <!-- winterpenen  -->
@@ -56,7 +56,7 @@
         <!-- prijs  -->
         <p>&euro; 1,10</p>
         <!-- voor extra info  -->
-        <a href="detail.html" class="knop">Bekijk</a>
+        <a href="detail.php" class="knop">Bekijk</a>
        </div>
 
       <!-- trostomaten  -->
@@ -66,7 +66,7 @@
         <!-- prijs  -->
         <p>&euro; 2,30</p>
         <!-- voor extra info  -->
-        <a href="detail.html" class="knop">Bekijk</a>
+        <a href="detail.php" class="knop">Bekijk</a>
        </div>
 
       <!-- spinazie  -->
@@ -76,7 +76,7 @@
         <!-- prijs  -->
         <p>&euro; 2,50</p>
         <!-- voor extra info  -->
-        <a href="detail.html" class="knop">Bekijk</a>
+        <a href="detail.php" class="knop">Bekijk</a>
        </div>
 
       <!-- kropsla  -->
@@ -86,7 +86,7 @@
         <!-- prijs  -->
         <p>&euro; 1,10</p>
         <!-- voor extra info  -->
-        <a href="detail.html" class="knop">Bekijk</a>
+        <a href="detail.php" class="knop">Bekijk</a>
        </div>
 
       <!-- champignons  -->
@@ -96,7 +96,7 @@
         <!-- prijs  -->
         <p>&euro; 2,35</p>
         <!-- voor extra info  -->
-        <a href="detail.html" class="knop">Bekijk</a>
+        <a href="detail.php" class="knop">Bekijk</a>
        </div>
 
       <!-- bloemkool  -->
@@ -106,7 +106,7 @@
         <!-- prijs  -->
         <p>&euro; 1,60</p>
         <!-- voor extra info  -->
-        <a href="detail.html" class="knop">Bekijk</a>
+        <a href="detail.php" class="knop">Bekijk</a>
        </div>
 
         <!-- rode bieten  -->
@@ -116,7 +116,7 @@
         <!-- prijs  -->
         <p>&euro; 1,60</p>
         <!-- voor extra info  -->
-        <a href="detail.html" class="knop">Bekijk</a>
+        <a href="detail.php" class="knop">Bekijk</a>
        </div>
       
       </div>

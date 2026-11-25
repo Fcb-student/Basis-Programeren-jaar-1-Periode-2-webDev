@@ -15,7 +15,7 @@
         <!-- title van website  -->
         <h1>Groente Man</h1>
         <ul id="menu">
-                <li><a href="index.html">Producten</a></li>
+                <li><a href="index.php">Producten</a></li>
                 <li><a href="#">Over ons</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
@@ -23,7 +23,7 @@
       </div>
     
       <div id="content">
-        <a href="index.html" class="knop">&larr; Terug naar de verse producten</a>
+        <a href="index.php" class="knop">&larr; Terug naar de verse producten</a>
 
         <div class="detail">
          <img src="images/zakaardappelen.jpg" alt="zak aardappelen 3KG">
@@ -33,7 +33,7 @@
             <p class="prijs">&euro; 2,99</p>
             <!-- beschrijving -->
             <p>Een zak van 3 kilo kruimelige aardappelen die drie weken houdbaar zijn.</p>
-            <a href="bestellen.html" class="knop">Bestellen</a>
+            <a href="bestellen.php" class="knop">Bestellen</a>
           </div>
         </div>
       </div>

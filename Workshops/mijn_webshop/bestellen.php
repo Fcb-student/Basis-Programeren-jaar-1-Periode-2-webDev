@@ -11,14 +11,14 @@
         <div id="header">
             <h1>Sneakerspot</h1>
             <ul id="menu">
-                <li><a href="index.html">Producten</a></li>
+                <li><a href="index.php">Producten</a></li>
                 <li><a href="#">Over ons</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </div> <!-- einde header  -->
 
         <div id="content">
-            <a href="detail.html" class="knop">&larr; Terug naar de product</a>
+            <a href="detail.php" class="knop">&larr; Terug naar de product</a>
             <h2>Bestellen: zak aardappelen 3KG</h2>
             <form class="formulier">
                 <div class="veld">
