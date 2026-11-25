@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device=width, initial-scale=1.0">
+    <title>Sneakerspot</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <h1>Sneakerspot</h1>
+            <ul id="menu">
+                <li><a href="index.php">Producten</a></li>
+                <li><a href="#">Over ons</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div> <!-- einde header  -->
+
+        <div id="content">
+           <a href="index.php" class="knop">&larr; Terug naar alle sneakers</a>
+
+           <div class="detail">
+                <img src="images/groenesneakers.jpg" alt="Adidad Groen">
+                <div class="info">
+                    <h2>Adidad groen</h2>
+                    <p class="prijs">%euro; 109,99</p>
+                    <p>De groene adidas is een relatieve populaire sneaker met ingebouwde air demping en lucht circulatie zodat je comfortabel zit voor de hele dag</p>
+                    <a href="bestellen.php" class="knop">Bestellen</a>
+                </div>
+           </div>
+        </div> <!-- einde content  -->
+
+        <div id="footer"> 2026 Sneakerspot</div> <!-- einde footer  -->
+
+    </div>
+
+    <h2>onze sneakers</h2>
+    <div class="producten">
+        <div class="product">groene sneakers</div>
+        <div class="product">regenboog sneakers</div>
+        <div class="product">rode sneakers</div>
+        <div class="product">witte sneakers</div>
+        <div class="product">zwarte sneakers</div>
+        <div class="product">grijze sneakers</div>
+    </div>
+
+</body>
+
+</html>

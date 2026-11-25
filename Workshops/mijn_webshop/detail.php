@@ -32,7 +32,7 @@
             <!-- prijs -->
             <p class="prijs">&euro; 2,99</p>
             <!-- beschrijving -->
-            <p>Een zak van 3 kilo kruimelige aardappelen die drie weken houdbaar zijn.</p>
+            <p>Een zak van 3 kilo kruimelige aardappelen die lang houdbaar zijn.</p>
             <a href="bestellen.php" class="knop">Bestellen</a>
           </div>
         </div>
