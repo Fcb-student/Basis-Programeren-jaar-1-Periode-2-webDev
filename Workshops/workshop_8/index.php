@@ -1,31 +1,4 @@
-<!DOCTYPE html>
-<html lang="nl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device=width, initial-scale=1.0">
-    <title>Sneakerspot</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <div id="container">
-        <div id="header">
-            <h1>SneakerSpot</h1>
-            <ul id="menu">
-                <li><a href="index.php">Producten</a></li>
-                <li><a href="#">Over ons</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </div> <!-- einde header  -->
-        
-        
-        <div id="content">
-        <?php
-        $winkelnaam= "sneakerSpot";
-        $aantalSneakers = 6;
-        ?>
-        <h1><?php echo $winkelnaam; ?></h1>
-        <p>We hebben <?php echo $aantalSneakers; ?> sneakers in de winkel.</p>
-
+<?php include "includes/header.php"; ?>
             <h2>Hier komen de sneakers</h2>
             <div class="producten">
 
@@ -71,22 +44,4 @@
                 <a href="detail.php" class="knop">bekijk</a>
             </div>
           </div>
-
-        </div> <!-- einde content  -->
-
-        <div id="footer">&copy; <?php echo date("y"); ?> 2026 Sneakerspot</div> <!-- einde footer  -->
-
-    </div>
-
-    <h2>onze sneakers</h2>
-    <div class="producten">
-        <div class="product">groene sneakers</div>
-        <div class="product">regenboog sneakers</div>
-        <div class="product">rode sneakers</div>
-        <div class="product">witte sneakers</div>
-        <div class="product">zwarte sneakers</div>
-        <div class="product">grijze sneakers</div>
-    </div>
-
-</body>
-</html>
+<?php include "includes/footer.php"; ?>
