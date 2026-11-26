@@ -1,31 +1,10 @@
-<!doctype html>
-<html lang="nl">
-    <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <!-- de titel  -->
-      <title>Groente man</title>
-      <!-- verbind dan met de style.css  -->
-      <link rel="stylesheet" href="css/style.css" />
-    </head>
-
-    <body>
-      <div id="container">
-      <!-- hier komt de logo en algemene info  -->
-        <div id="header">
-            <h1>Groente Man</h1>
-            <ul id="menu">
-                <li><a href="index.html">Producten</a></li>
-                <li><a href="#">Over ons</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </div>
+<?php include "includes/header.php"; ?>
        <!-- hier komen de producten met plaatje en prijs samen met een link voor extra informatie  -->
        <!-- wat er is  -->
-      <div id="content">
+     <div id="content">
         <h2>Hier komen de producten</h2>
         <div class="producten">
-      <!-- welke producten beschikbaar zijn  -->
+       <!-- welke producten beschikbaar zijn  -->
 
        <!-- aardappelen  -->
        <div class="product">
@@ -38,7 +17,7 @@
         <a href="detail.php" class="knop">Bekijk</a>
        </div>
 
-      <!-- andijvie  -->
+       <!-- andijvie  -->
        <div class="product">
         <h2>andijvie</h2>
         <!-- foto  -->
@@ -49,7 +28,7 @@
         <a href="detail.php" class="knop">Bekijk</a>
        </div>
 
-      <!-- winterpenen  -->
+       <!-- winterpenen  -->
        <div class="product">
         <h2>wortelen</h2>
         <img src="images/wortelen.jpg" alt="zak met bospenen 100G" />
@@ -59,7 +38,7 @@
         <a href="detail.php" class="knop">Bekijk</a>
        </div>
 
-      <!-- trostomaten  -->
+       <!-- trostomaten  -->
        <div class="product">
         <h2>trostomaten</h2>
         <img src="images/trostomaten.jpg" alt="bak trostomaten" />
@@ -69,7 +48,7 @@
         <a href="detail.php" class="knop">Bekijk</a>
        </div>
 
-      <!-- spinazie  -->
+       <!-- spinazie  -->
        <div class="product">
         <h2>spinazie</h2>
         <img src="images/zakspinazie.jpg" alt="zak spinazie 300G" />
@@ -79,7 +58,7 @@
         <a href="detail.php" class="knop">Bekijk</a>
        </div>
 
-      <!-- kropsla  -->
+       <!-- kropsla  -->
        <div class="product">
         <h2>kropsla</h2>
         <img src="images/kropsla.jpg" alt="een kropsla 100G" />
@@ -89,7 +68,7 @@
         <a href="detail.php" class="knop">Bekijk</a>
        </div>
 
-      <!-- champignons  -->
+       <!-- champignons  -->
        <div class="product">
         <h2>champignons</h2>
         <img src="images/champignons.jpg" alt="bakje met champignons 200G" />
@@ -99,7 +78,7 @@
         <a href="detail.php" class="knop">Bekijk</a>
        </div>
 
-      <!-- bloemkool  -->
+       <!-- bloemkool  -->
        <div class="product">
         <h2>bloemkool</h2>
         <img src="images/bloemkool.jpg" alt="een bloemkool 800G" />
@@ -118,31 +97,5 @@
         <!-- voor extra info  -->
         <a href="detail.php" class="knop">Bekijk</a>
        </div>
-      
-      </div>
-
-    </div>
-
-     <!-- footer met overige info  -->
-     <div id="footer">
-      <div id="watermerk, extra informatie">
-        Groente man@, Oogst 2026, boerengemeenschap, licensie boerenmarkt@
-      </div>
-     </div>
-    </div>
-
-    <h2>onze producten</h2>
-    <div class="producten">
-        <div class="product">zak aardappelen 3KG</div>
-        <div class="product">zak andijvie 300G</div>
-        <div class="product">zak winterpenen 100G</div>
-        <div class="product">bak trostomaten</div>
-        <div class="product">zak spinazie 300G</div>
-        <div class="product">een kropsla 100G</div>
-        <div class="product">bak champignons 200G</div>
-        <div class="product">bloemkool 800G</div>
-        <div class="product">zak rode bieten 500G</div>
-    </div>
-
-  </body>
-</html>
+ </div> <!-- einde content  -->
+<?php include "includes/footer.php"; ?>

@@ -1,23 +1,7 @@
-<!DOCTYPE html>
-<html lang="nl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device=width, initial-scale=1.0">
-    <title>Groente Man</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <div id="container">
-        <div id="header">
-            <h1>Sneakerspot</h1>
-            <ul id="menu">
-                <li><a href="index.php">Producten</a></li>
-                <li><a href="#">Over ons</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </div> <!-- einde header  -->
-
-        <div id="content">
+<?php include "includes/header.php"; ?>
+       <!-- hier komen de producten met plaatje en prijs samen met een link voor extra informatie  -->
+       <!-- wat er is  -->
+     <div id="content">
             <a href="detail.php" class="knop">&larr; Terug naar de product</a>
             <h2>Bestellen: zak aardappelen 3KG</h2>
             <form class="formulier">
@@ -55,25 +39,5 @@
 
                 <input type="submit" value="Bestelling plaatsen" class="knop">
             </form>
-    </div> <!-- einde content  -->
-
-        <div id="footer"> Groente man@, Oogst 2026, boerengemeenschap, licensie boerenmarkt@</div> <!-- einde footer  -->
-
-    </div>
-
-    <h2>onze producten</h2>
-    <div class="producten">
-      <div class="product">zak aardappelen 3KG</div>
-      <div class="product">zak andijvie 300G</div>
-      <div class="product">zak winterpenen 100G</div>
-      <div class="product">bak trostomaten</div>
-      <div class="product">zak spinazie 300G</div>
-      <div class="product">een kropsla 100G</div>
-      <div class="product">bak champignons 200G</div>
-      <div class="product">bloemkool 800G</div>
-      <div class="product">zak rode bieten 500G</div>
-    </div>
-
-</body>
-
-</html>
+             </div> <!-- einde content  -->
+<?php include "includes/footer.php"; ?>
