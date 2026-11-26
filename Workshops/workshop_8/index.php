@@ -9,15 +9,23 @@
 <body>
     <div id="container">
         <div id="header">
-            <h1>Sneakerspot</h1>
+            <h1>SneakerSpot</h1>
             <ul id="menu">
                 <li><a href="index.php">Producten</a></li>
                 <li><a href="#">Over ons</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </div> <!-- einde header  -->
-
+        
+        
         <div id="content">
+        <?php
+        $winkelnaam= "sneakerSpot";
+        $aantalSneakers = 6;
+        ?>
+        <h1><?php echo $winkelnaam; ?></h1>
+        <p>We hebben <?php echo $aantalSneakers; ?> sneakers in de winkel.</p>
+
             <h2>Hier komen de sneakers</h2>
             <div class="producten">
 
@@ -66,7 +74,7 @@
 
         </div> <!-- einde content  -->
 
-        <div id="footer"> 2026 Sneakerspot</div> <!-- einde footer  -->
+        <div id="footer">&copy; <?php echo date("y"); ?> 2026 Sneakerspot</div> <!-- einde footer  -->
 
     </div>
 
